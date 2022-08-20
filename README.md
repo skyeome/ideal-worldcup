@@ -1,10 +1,10 @@
-# Getting Started with Create React App
+# 이상형 월드컵 (React.js)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React 를 사용해서 제작한 이상형 월드컵 웹앱입니다.
 
-## Available Scripts
+## 이상형 월드컵이란?
 
-In the project directory, you can run:
+주어진 두 개의 사진중 고르고 올라간 항목끼리 토너먼트 형식으로 최종 우승자를 가리는 게임입니다.
 
 ### `npm start`
 
