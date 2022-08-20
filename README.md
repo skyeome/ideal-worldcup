@@ -6,65 +6,21 @@ React 를 사용해서 제작한 이상형 월드컵 웹앱입니다.
 
 주어진 두 개의 사진중 고르고 올라간 항목끼리 토너먼트 형식으로 최종 우승자를 가리는 게임입니다.
 
-### `npm start`
+### 음식 이상형 월드컵
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+32가지의 음식 중 더 먹고 싶거나 끌리는 사진을 골라서 끝까지 살아남은 음식이 우승하는 게임입니다.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 주요 화면 목록
 
-### `npm test`
+다양한 이상형 월드컵이 준비되면 화면이 추가될 예정입니다.
+현재는 메인 화면과 게임화면으로 나뉘어 집니다.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 메인화면
 
-### `npm run build`
+시작하고 싶은 라운드수를 고른 뒤 게임 시작 버튼을 누르면
+게임이 시작됩니다. 추후에 게임이 추가되면 목록 형태로 나열되는 방식으로 변경될 예정입니다.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 게임화면
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+좌/우에 사진이 나오면, 둘 중 더 끌리는 사진을 골라주세요
+현재 몇번째 라운드인지 몇퍼센트정도 진행되었는지 확인할수있습니다.
