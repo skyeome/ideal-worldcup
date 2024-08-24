@@ -138,6 +138,10 @@ const WcTitle = styled.h2`
   text-align: center;
 `;
 
+const WcRound = styled.p`
+  text-align: center;
+`;
+
 const GameBox = styled.div`
   display: flex;
   flex-wrap: wrap;
@@ -210,10 +214,12 @@ function WorldCup() {
   }, []);
   return (
     <>
-      <WcTitle>{title}</WcTitle>
-      <p>
+      <WcTitle>
+        {title} {roundCount * 2 <= 2 ? "결승전" : roundCount * 2 + "강"}
+      </WcTitle>
+      <WcRound>
         {winners.length + 1}/{roundCount}
-      </p>
+      </WcRound>
       <GameBox>
         {displays.map((d) => {
           return (
